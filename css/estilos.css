@@ -1,0 +1,17 @@
+:root{
+    --background: #37353E;
+    --navbarBG: #715A5A;
+    --letras: #D3DAD9;
+    --botones: #715A5A;
+    --encabezados: "Lexend";
+}
+
+body{
+    background-color: var(--background);
+    font-family: var(--encabezados);
+    color: var(--letras);
+}
+
+#barraNav{
+    background-color: var(--navbarBG) !important;
+}
